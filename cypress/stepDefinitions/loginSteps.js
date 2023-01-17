@@ -14,6 +14,7 @@ When('I enter correct login credentials', (dataTable) => {
     cy.get('#loginusername').type(dataTable.rawTable[1][0])
     cy.wait(2000)
     cy.get('#loginpassword').type(dataTable.rawTable[1][1])
+    //nuevo comentario en el código
     
 })
 Then('submit the information and validate welcome message', () => {
